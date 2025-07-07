@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    position: relative;
+}
+.logIn{
+    height: 410px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px;
+}.logIn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    }
+.logIn h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 38px;
+    margin-bottom: 30px;
+    }
+.logIn input {
+    width: 94%;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+.logIn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    }
+.logIn .or {
+    margin: 20px 0;
+    color: #aaa;
+    }
+.logIn .signup {
+    margin-top: 20px;
+    font-size: 14px;
+    }
+.logIn .signup a {
+    text-decoration: none;
+    color: #3897f0;
+    font-weight: bold;
+    }

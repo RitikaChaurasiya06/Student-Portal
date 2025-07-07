@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f0f0f0;
+    }
+main{
+    display: flex;
+}
+.navbar {
+    height: 100vh;
+    width: 171px;
+    background: gray;
+}
+.dashboard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,3.1);
+    }
+    h1 {
+    color: #333;
+    }
+.info {
+    text-align: left;
+    margin-top: 20px;
+    }
+.info p {
+    margin: 8px 0;
+    }
+.buttons {
+    margin-top: 30px;
+    }
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+.buttons a.logout {
+    background-color: #dc3545;
+    }
+.buttons a.delete {
+    background-color: #ff0000;
+    }
